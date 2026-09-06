@@ -23,7 +23,7 @@ To run this project locally:
 4. Start the development server: `npm run dev`
 
 ## Live Demo
-[View the live site here](YOUR_VERCEL_URL_HERE)
+[View the live site here](https://nova-landing-sepia.vercel.app/)
 
 ## AI Tools Used
 * Gemini: Used as a thought partner for component architecture, Tailwind configuration troubleshooting, and rapid prototyping of responsive layouts.

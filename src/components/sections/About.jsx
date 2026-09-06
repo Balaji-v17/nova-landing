@@ -4,9 +4,20 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
         <div className="w-full md:w-1/2">
           <div className="aspect-video bg-canvas rounded-xl border border-slate/20 flex items-center justify-center p-8">
-            {/* Abstract Visual Placeholder */}
-            <div className="w-full h-full border-2 border-dashed border-slate/30 rounded-lg flex items-center justify-center text-slate font-medium">
-              Interactive Workspace Visual
+            {/* Styled Mock Workspace Visual */}
+            <div className="w-full h-full bg-white rounded-lg shadow-sm border border-slate/10 overflow-hidden flex flex-col">
+              <div className="h-8 bg-slate/5 border-b border-slate/10 flex items-center px-4 gap-2">
+                <div className="w-2.5 h-2.5 rounded-full bg-slate-300"></div>
+                <div className="w-2.5 h-2.5 rounded-full bg-slate-300"></div>
+                <div className="w-2.5 h-2.5 rounded-full bg-slate-300"></div>
+              </div>
+              <div className="p-6 flex-1 flex flex-col gap-4">
+                <div className="w-3/4 h-3 bg-slate/10 rounded-full"></div>
+                <div className="w-1/2 h-3 bg-slate/10 rounded-full"></div>
+                <div className="mt-auto w-full h-24 bg-accent/5 rounded-md border border-accent/10 flex items-center justify-center text-accent/40 text-sm font-medium">
+                  AI Co-pilot Active
+                </div>
+              </div>
             </div>
           </div>
         </div>
